@@ -1,0 +1,432 @@
+   body{
+     background-color:#eaebef;//e9ebe ;
+   }
+   .header {
+     background-color: #2A435A;
+        
+   }
+   .text1 {
+     font-weight: bold;
+     color: #fff;
+   }
+   .text1 >a{
+     font-weight: bold;
+     color: #fff;
+     text-decoration: none;
+  }
+  .user-nav-bar-ul{
+    float: right;
+  }
+  .user-nav-bar-ul .text2  {
+   border: 5px solid #2A435A;// #1d2e3e;
+   border-radius: 25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   background-color: #2A435A;//#1d2e3e;
+ }
+ .user-nav-bar-ul .text2:active , .user-nav-bar-ul .text2:hover{
+
+   border: 5px solid #1d2e3e;
+   border-radius: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #1d2e3e;
+}
+
+.search-text {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.search-text:focus {
+  width: 100%;
+}
+.notification-logo {
+ padding: 12px 20px 12px 40px;
+ margin: 12px 20px 12px 40px;
+}
+.user-nav-bar-ul >li {
+ padding: 5px;
+ margin: 5px;
+ list-style-type: none;
+ float: left;
+}
+.user-buttons{
+  padding: 5px;
+  margin: 5px;
+  float: right;
+  background-color: #e9ebee;
+}
+.user-buttons >li >a{
+ font-weight: bold;
+ color: #2A435A;
+}
+.user-buttons >li >a:hover{
+  background-color: #2A435A;
+
+ font-weight: bold;
+ color: #fff;
+}
+.content{
+  margin: 10px;
+  padding: 10px;
+}
+.trends {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.trends-title {
+  text-align: center;
+  font-weight: bold;
+  color: #2A435A;
+}
+.trends >ul{
+  margin: 5px;
+  padding: 5px;
+}
+.trends >ul >li{
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+}
+.trends >ul >li >a{
+ color: #2A435A;
+}
+.trends >ul >li .sug3{
+  color: #7a7a7a;
+}
+.interested-button{
+  background-color:  #2a435a;//#e9ebee;
+  text-decoration-line: none;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.text4{
+  font-weight: bold;
+}
+.activities{
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.activities-title {
+  float: right;
+  padding: 5px;
+  margin: 5px;
+}
+.activities >ul{
+  margin: 5px;
+  padding: 5px;
+}
+.activities >ul >li{
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+}
+.activities >ul >li >a{
+ text-decoration: none;
+ color: #2A435A;
+}
+.activities >ul >li .sug{
+  color: #888888;
+  font-weight: bold;
+}
+.activities >ul >li{
+  background-color: #e9ebee;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+}
+.who-to-follow {
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.who-to-follow-title {
+  text-align: center;
+  //font-weight: bold;
+  color: #2A435A;
+}
+.who-to-follow >ul{
+  margin: 5px;
+  padding: 5px;
+}
+.who-to-follow >ul >li{
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+}
+.who-to-follow >ul >li >a{
+ text-decoration: none;
+ color: #2A435A;
+}
+.who-to-follow >ul >li .sug2{
+  color: #888888;
+  font-weight: bold;
+}
+.follow-button{
+  background-color:  #2a435a;
+  text-decoration-line: none;
+  color: #fff;
+  font-weight: bold;
+}
+.post{
+  background-color: #d1d4d6;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.suggest-block{
+  margin: 10px;
+  padding: 10px;
+}
+.suggest-button{
+  background-color:  #2a435a;
+  color: #fff;
+  font-weight: bold;
+  float: right;
+}
+.suggest-data .suggest-bar >ul >li{
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+  float: left;
+}
+.suggest-text{
+  border: 1px solid #e1e8ed;
+  border-radius: 30px;
+}
+.suggest-topic{
+  border: 1px solid #e1e8ed;
+  border-radius: 15px;
+}
+textarea:focus, input:focus, .uneditable-input:focus {   
+  border-color: #a9b3bd !important;
+  box-shadow: 0 1px 1px #a9b3bd inset, 0 0 8px #a9b3bd !important;
+  outline: 0 none !important;
+}
+.posts{
+  background-color:  #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.posts >ul{
+  margin: 5px;
+  padding: 5px;
+}
+.posts >ul >li{
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none;
+}
+.posts-choose{
+    position: sticky;
+    float: right;
+
+}
+
+.posts-choose >ul >li >a:hover{
+  background-color: #2a435a;
+  color: #fff;
+}
+.posts-choose .e-text-btn-link:hover{
+
+    text-decoration: none;
+    color: #F2F4F6;
+}
+
+   .posts-choose >ul >li:hover{
+       background-color: #2a435a;
+       color: #fff;
+   }
+.sug4{
+  color: #888888;
+  font-weight: bold;
+}
+.comments{
+  background-color: #e9ecee;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+  display: none;
+}
+.user-comment{
+  margin: 10px;
+  padding: 10px;
+}
+/*///////////profile//////////////////////*/
+
+    .user-profile-div{
+      background-color: #fff;
+      border: 1px solid #e1e8ed;
+      border-radius: 5px;
+
+      width: 100%;
+      height: 100%;
+      box-shadow: 5px 5px 5px #cfcfcf;
+
+    }
+    .user-profile-data{
+      margin: 20px;
+      padding: 20px;
+
+    }
+
+    .avatar-pic{
+      width: 200px;
+      height: 200px;
+
+    }
+    .user-profile-body , .user-profile-img{
+      padding: 10px;
+      margin: 10px;
+
+    }
+    .small-title{
+      color: #888888;
+    }
+    .follow-button-profile{
+      background-color:  #2a435a;
+      text-decoration-line: none;
+      color: #fff;
+      font-weight: bold;
+      width: 140px;
+    }
+    .edit-button-profile , .post-button-profile{
+      color: #2a435a;
+      font-weight: bold;
+    }
+    .user-tabs{
+      margin: 5px;
+      padding: 5px;
+    }
+    .user-tabs >ul >li >a {
+      color:#2a435a;
+      font-weight: bold; 
+    }
+    .nav-tabs  li.active  a, .nav-tabs  li.active  a:hover, .nav-tabs  li.active  a:focus{
+
+      //background-color: #2a435a;
+
+      border-bottom: 5px solid #2a435a;
+      color: #2a435a;  
+    }
+    .tab-pane{
+     margin: 5px;
+     padding: 5px;
+   }
+   .follow-button-following{
+     background-color:  #2a435a;
+     text-decoration-line: none;
+     color: #fff;
+     font-weight: bold;
+     width: 140px;
+     float: right;
+   }
+   .following >ul >li{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+  }
+  .sug5 {
+    color: #888888;
+    font-weight: bold;
+  }
+
+   .follow-button-followers{
+     background-color:  #2a435a;
+     text-decoration-line: none;
+     color: #fff;
+     font-weight: bold;
+     width: 140px;
+     float: right;
+   }
+   .followers >ul >li{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+  }
+  .sug6 {
+    color: #888888;
+    font-weight: bold;
+  }
+  /*//////////////////////////Topic////////////////////////*/
+
+
+    .topic-header-div{
+  background-color: #fff;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 5px 5px #cfcfcf;
+}
+.topic-header{
+      //text-align: center;
+      //background-color: #2A435A;
+      color: #2A435A;
+      font-weight: bold;
+      margin: 20px;
+      padding: 20px;
+    }
+    #interested-button-head{
+      float: right;
+    }
+    #interested-link-head{
+      color: #2A435A;
+    }
+    /*//////////////////////////////////////*/
+.user-form-save , .user-form-close , .save-post-button , .e-save-post-button{
+
+  background-color:  #2a435a;
+  text-decoration-line: none;
+  color: #fff;
+  font-weight: bold;
+  
+}
+.no-itesms{
+    color: #2a435a;
+    font-weight: bold;
+
+}
